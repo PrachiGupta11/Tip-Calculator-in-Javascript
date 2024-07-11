@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="main">
+    <div id="header">
+      <h3>TIP CALCULATOR</h3>
+    </div>
+    <div id="content">
+
+      <label>Enter your bill amount</label><br>
+      <label>Rs</label>
+      <input type="number" id="bill" placeholder="Enter Bill Amount">
+      <br><br>
+      <label for="serviceFeedback">How was the service?</label><br>
+      <select id="serviceFeedback">
+        <option>Select</option>
+        <option value="0.2">Excellent - 20%</option>
+        <option value="0.1">Medium - 10%</option>
+        <option value="0.05">Not so good - 5%</option>
+      </select>
+      <br><br>
+      <label>How many people are sharing the bill?</label><br>
+      <input type="number" id="people" placeholder="Enter Number of People"><br><br>
+      <button type="submit" id="calculate">Calculate</button>
+      <br>
+      <label style="margin-left: 90px;
+            font-size: 20px;">Tip Amount</label> <br>
+      <label id="amount" style="margin-left: 100px;">Rs 0 </label><br>
+      <label style="margin-left: 105px;">Each</label>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
